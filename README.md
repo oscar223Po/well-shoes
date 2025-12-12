@@ -13,8 +13,7 @@ Well Shoes is a modern e-commerce product showcase website designed to highlight
 <h3>🎯 Project Goals</h3>
 
 - ✅ Build an immersive and dynamic music streaming interface using React
-- ⚡ Deliver smooth and responsive UI with TailwindCSS and SCSS modules
-- 🎵 Synchronize audio playback with lyrics and player animation
+- ⚡ Deliver smooth and responsive UI with SCSS modules
 - 🧠 Ensure clean, maintainable, and scalable code through TypeScript
 - 🚀 Optimize performance with Vite for fast build and development speed
 
@@ -24,9 +23,7 @@ Well Shoes is a modern e-commerce product showcase website designed to highlight
 
 - ⚛️ React Components Architecture — modular and reusable design
 - 🧠 TypeScript — strict typing and maintainable logic
-- 🎨 TailwindCSS + SCSS — hybrid styling approach for flexibility and control
-- 🔊 Audio synchronization — dynamic lyric highlighting tied to track progress
-- 💾 Local playlists — create and manage personalized collections
+- 🎨 SCSS — styling approach for flexibility and control
 - 🌗 Adaptive UI — responsive and theme-friendly layout
 - ⚙️ Vite — lightning-fast development environment and optimized builds
 
@@ -38,7 +35,7 @@ Well Shoes is a modern e-commerce product showcase website designed to highlight
 | ---------------------- | ------------------------------------- |
 | **React**              | Component-based UI architecture       |
 | **TypeScript**         | Type safety & clean logic structure   |
-| **TailwindCSS / SCSS** | Styling and layout flexibility        |
+| **SCSS**               | Styling and layout flexibility        |
 | **Vite**               | Fast build tool and dev server        |
 | **HTML5 / CSS3**       | Core structure and responsive design. |
 
