@@ -6,7 +6,7 @@ Well Shoes is a modern e-commerce product showcase website designed to highlight
 
 <h3>🖼 Preview</h3>
 
-
+![Preview](preview.png)
 
 ---
 
