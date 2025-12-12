@@ -1,0 +1,73 @@
+.header {
+	gap: 15px;
+	z-index: 10;
+	display: flex;
+	position: relative;
+	align-items: center;
+	background-color: #fff;
+	justify-content: space-between;
+	border-bottom: 1.5px solid $mainColor;
+}
+.logo {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	@include adaptiveValue("gap", 25, 15, 2, $maxWidth, 767.98);
+	&::before,
+	&::after {
+		height: 1px;
+		content: "";
+		background-color: $mainColor;
+		@include adaptiveValue("width", 28, 18, 2, $maxWidth, 767.98);
+	}
+}
+.logoPc,
+.logoMob {
+	translate: 0 1.5px;
+	letter-spacing: 1px;
+	font-family: $fontBebasNeue;
+	span {
+		color: #fff;
+		-webkit-text-stroke: 1px $mainColor;
+	}
+}
+.logoPc {
+	@include adaptiveValue("font-size", 38, 28, 2, $maxWidth, 767.98);
+	@media (max-width: toEm($mobile)) {
+		display: none;
+	}
+}
+.logoMob {
+	font-size: 46px;
+	@media (min-width: toEm($mobile)) {
+		display: none;
+	}
+}
+// Navigation
+.nav {
+	display: flex;
+	align-items: center;
+	@include adaptiveValue("gap", 25, 10, 2, $maxWidth, 767.98);
+}
+.navChild {
+	@media (max-width: toEm($mobile)) {
+		display: none;
+	}
+}
+.navLink {
+	color: #aeaeae;
+	letter-spacing: 1px;
+	@include adaptiveValue("font-size", 24, 18, 2, $maxWidth, 767.98);
+	@include adaptiveValue("padding-block", 15, 10, 2, $maxWidth, 767.98);
+	@include adaptiveValue("padding-inline", 30, 18, 2, $maxWidth, 767.98);
+	&.active {
+		color: #fff;
+		background-color: $mainColor;
+	}
+}
+// Button Search
+.search {
+	aspect-ratio: 1;
+	border-left: 1.5px solid $mainColor;
+	@include adaptiveValue("width", 92, 62, 0, $maxWidth, 767.98);
+}

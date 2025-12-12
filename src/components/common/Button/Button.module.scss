@@ -1,0 +1,25 @@
+.button {
+	color: #fff;
+	font-size: 24px;
+	align-items: center;
+	display: inline-flex;
+	padding-inline: 20px;
+	justify-content: center;
+	background-color: $mainColor;
+	border: 1.5px solid $mainColor;
+	@media (max-width: toEm($mobile)) {
+		font-size: 20px;
+	}
+	&--large {
+		height: 80px;
+	}
+	&--medium {
+		height: 60px;
+		@media (max-width: toEm($mobile)) {
+			height: 50px;
+		}
+	}
+	&--small {
+		height: 45px;
+	}
+}

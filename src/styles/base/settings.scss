@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Francois%20One:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas%20Neue:wght@400&display=swap");
+
+$fontFamily: "Francois One", sans-serif;
+$fontBebasNeue: "Bebas Neue", sans-serif;
+$fontSize: 16;
+
+$mainColor: #2c3333;
+
+$minWidth: 320;
+$maxWidth: 1920;
+$maxWidthContainer: 1270;
+$containerPadding: 30;
+
+$containerWidth: $maxWidthContainer + $containerPadding;
+
+$pc: $containerWidth;
+$tablet: 991.98;
+$mobile: 767.98;
+$mobileSmall: 479.98;
+
+$responsiveType: 1;
